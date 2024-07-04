@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(222, 222, 222, 0.888);
+
+}
+
+.header {
+    background-color: #783883;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header nav ul li {
+    margin-right: 20px;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+    color: #ff0084;
+}
+
+.home-banner {
+    min-height: 575px;
+    background-color: rgb(207, 175, 214);
+    text-align: center;
+    border-bottom: 5px double rgb(51, 18, 61);
+    border-top: 5px double rgb(51, 18, 61);;
+}
+.home-banner h2 {
+    font-size: 50px;
+    margin: 0;
+    padding-top: 150px;
+}
+
+figure img{
+    width: 150px;
+}
+figure{
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border: 5 solid black;
+    box-shadow:  1px 1px 5px black;
+    border-radius: 5px;
+    width: 500px;
+}
+figcaption{
+    margin-top: 10px;
+}
+figcaption h1{
+    margin-top: -170px;
+    margin-left: 160px;
+}
+figcaption h2{
+    margin-top: 30px;
+    margin-left: 160px;
+}
+figcaption h4{
+    margin-top: 60px;
+}
+button{
+    background-color: #0000FF;
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px;
+    margin: 10px; 
+    cursor: pointer; 
+}
+button:hover {
+    background-color: #000099;
+}
+h2{
+    color: red;
+}
+.product-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-grid section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
